@@ -4,8 +4,8 @@ its pieces across every road in Gotham City.
 The task is to help Commissioner Gordon find a quick route to collect all the pieces and assemble 
 the BatSignal on the rooftop by traversing every single road in Gotham City.
 
-The solution involves implementing Hierholzer's Algorithm to find an Eulerian circuit of an Eulerian
-graph. The algorithm finds and merges tours iteratively and picks a starting vertex for the circuit,
+The solution involves implementing **Hierholzer's Algorithm** to find an **Eulerian circuit** of an **Eulerian
+graph**. Check the [link](https://www.geeksforgeeks.org/eulerian-path-and-circuit/) for the details of eulerian circuit. The algorithm finds and merges tours iteratively and picks a starting vertex for the circuit,
 traversing non-traversed edges arbitrarily. It merges the found tour with the known Eulerian circuit 
 and finds a vertex with non-traversed outgoing edges to start a new tour, repeating the iterations 
 until the Eulerian circuit is fully constructed.
