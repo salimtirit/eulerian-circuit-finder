@@ -38,7 +38,7 @@ To compile and run the program, use the following commands:
 
 ```
 g++ *.cpp *.h -std=c++11 -o project3
-./project3 inputFile outputFile
+./project3 <inputFile> <outputFile>
 ```
 
 ## Notes
@@ -47,3 +47,9 @@ g++ *.cpp *.h -std=c++11 -o project3
 * Rather than using a different version of the algorithm you can find online, I sticked with the one stated in the pseudocode.
 * All roads are one-way, i.e. directed.
 * I was only allowed to utilize the default C++ library. No external code was used.
+
+## Contributing
+If you have any suggestions or find any issues with the code, please feel free to contribute to the project by opening a pull request or creating an issue.
+
+## Credits
+This is the third project of CMPE250 Data Structures and Algorithms class in Fall 2020 
